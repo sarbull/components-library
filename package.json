@@ -1,0 +1,35 @@
+{
+  "name": "components-library",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./dist/esm/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/types/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:rollup": "rollup -c"
+  },
+  "author": "Cezar SIRBU",
+  "license": "MIT",
+  "peerDependencies": {
+    "@mantine/core": "^4.2.8",
+    "@mantine/hooks": "^4.2.8",
+    "@mantine/next": "^4.2.8",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "@types/react": "^17.0.45",
+    "@types/react-dom": "^17.0.17",
+    "babel-core": "^6.26.3",
+    "rollup": "^2.75.6",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.8.3"
+  }
+}
